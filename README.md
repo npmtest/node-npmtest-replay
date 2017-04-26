@@ -1,6 +1,6 @@
 # npmtest-replay
 
-#### test coverage for  [replay (v2.1.2)](https://github.com/assaf/node-replay#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-replay.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-replay) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-replay.svg)](https://travis-ci.org/npmtest/node-npmtest-replay)
+#### basic test coverage for  [replay (v2.1.2)](https://github.com/assaf/node-replay#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-replay.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-replay) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-replay.svg)](https://travis-ci.org/npmtest/node-npmtest-replay)
 
 #### When API testing slows you down: record and replay HTTP responses like a boss
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-replay/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-replay/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-replay/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-replay/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-replay/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-replay/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-replay/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-replay/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-replay/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-replay/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-replay/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-replay/build/coverage.html/index.html)
 
@@ -116,7 +116,8 @@
         "prepublish": "gulp build",
         "test": "mocha"
     },
-    "version": "2.1.2"
+    "version": "2.1.2",
+    "bin": {}
 }
 ```
 
